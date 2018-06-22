@@ -15,6 +15,7 @@
     /*background-color: rgba(65, 181, 23, 0.5);*/
     
 }
+
 .header,.function{
     display: block;
     margin: 5px auto;
@@ -23,13 +24,16 @@
     border: none;
     padding: 20px;
     text-align: center;
-    background-color: rgba(4, 72, 16, 0.3);
     color: white;
     font-size: 20px;
     font-family: monospace;
 }
 .function{
     height: 220px;
+    background-color: rgba(26, 196, 10, 0.3);
+}
+.header{
+    background-color: rgba(26, 196, 10, 0.8);
 }
 .function2{
     display: block;
@@ -39,13 +43,26 @@
     border: none;
     padding: 20px;
     text-align: center;
-    background-color: rgba(4, 72, 16, 0.3);
+    background-color: rgba(255, 87, 51, 0.8);
     color: white;
     font-size: 20px;
     font-family: monospace;
     height: 320px;
 }
 
+.header2{
+    display: block;
+    margin: 5px auto;
+    width: 70%;
+    border-radius: 5px;
+    border: none;
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(241, 69, 28, 1);
+    color: white;
+    font-size: 20px;
+    font-family: monospace;
+}
 input,textarea,button{
     display: block;
     margin: 10px auto;
