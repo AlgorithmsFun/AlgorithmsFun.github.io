@@ -1,0 +1,54 @@
+input{
+    padding: 5px;
+}
+
+body{
+    background-image: url("../Assests/home.jpg");
+    
+}
+.container{
+    display: block;
+    margin: auto;
+    width: 90%;
+    height: 450px;
+    border-radius: 5px;
+    /*border: 1px solid rgba(31, 86, 11, 1);*/
+    padding: 10px;
+    background-color: rgba(65, 181, 23, 0.5);
+    
+}
+.header,.function{
+    display: block;
+    margin: 5px auto;
+    width: 60%;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    text-align: center;
+    background-color: rgba(4, 72, 16, 0.3);
+    color: white;
+    font-size: 20px;
+}
+.function{
+    height: 200px;
+}
+input,textarea,button{
+    display: block;
+    margin: 10px auto;
+    width: 70%;
+    box-sizing: border-box;
+}
+textarea{
+    height:50px;
+}
+button{
+    background-color: rgba(12, 207, 45, 1);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+button:hover{
+    background-color: rgba(12, 207, 45, 0.8);
+}
