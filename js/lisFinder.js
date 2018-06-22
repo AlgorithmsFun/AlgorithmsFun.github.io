@@ -1,6 +1,6 @@
 function main(){
     try{
-        var raw_input=document.getElementById('numSeq').value.toString().split(" ");
+        var raw_input=document.getElementById('numSeq').value.toString().split(",");
         if(raw_input!=""){
             var input_sequence=new Array(raw_input.length);
             for(i=0;i<raw_input.length;i++){
@@ -19,7 +19,7 @@ function main(){
         }
     
     }catch(e){
-        document.getElementById('lis').value="y";
+        document.getElementById('lis').value=e;
     }
 }
 	
@@ -29,7 +29,6 @@ function max(a,b) {
     return (a>b)?a:b;
 }
 	
-	/*max finding in a integer array*/
 function array_max_index(a) {
     var size=a.length;
     var max=a[0];
@@ -89,7 +88,7 @@ function longest_increasing_subsequence_finder(subsequences_lengths_array,longes
 		var longest_increasing_subsequence=new Array(subsequences_lengths_array[max_subsequence_length_index]);
 		var i=max_subsequence_length_index;
 		var j=subsequences_lengths_array[max_subsequence_length_index]-1;
-		// 2 1 3 2 4
+
 		
 		do{
 			longest_increasing_subsequence[j]=number_sequence[i];

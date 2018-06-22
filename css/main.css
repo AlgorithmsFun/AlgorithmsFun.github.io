@@ -1,45 +1,48 @@
-input{
-    padding: 5px;
-}
-
-body{
+/*body{
     background-image: url("../Assests/home.jpg");
-    
-}
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}*/
 .container{
     display: block;
     margin: auto;
-    width: 90%;
-    height: 450px;
+    width: 100%;
+    height: 400px;
     border-radius: 5px;
-    /*border: 1px solid rgba(31, 86, 11, 1);*/
-    padding: 10px;
-    background-color: rgba(65, 181, 23, 0.5);
+    padding: 50px 0;
+    /*background-color: rgba(65, 181, 23, 0.5);*/
     
 }
 .header,.function{
     display: block;
     margin: 5px auto;
-    width: 60%;
+    width: 70%;
     border-radius: 5px;
     border: none;
-    padding: 5px;
+    padding: 20px;
     text-align: center;
     background-color: rgba(4, 72, 16, 0.3);
     color: white;
     font-size: 20px;
+    font-family: monospace;
 }
 .function{
-    height: 200px;
+    height: 220px;
+    
 }
+
 input,textarea,button{
     display: block;
     margin: 10px auto;
-    width: 70%;
+    width: 80%;
     box-sizing: border-box;
+    font-family: monospace; 
 }
+
 textarea{
-    height:50px;
+    height:80px;
 }
 button{
     background-color: rgba(12, 207, 45, 1);
@@ -51,4 +54,9 @@ button{
 
 button:hover{
     background-color: rgba(12, 207, 45, 0.8);
+}
+input{
+    padding: 10px;
+    height: 50px;
+    
 }
