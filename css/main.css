@@ -30,7 +30,20 @@
 }
 .function{
     height: 220px;
-    
+}
+.function2{
+    display: block;
+    margin: 5px auto;
+    width: 70%;
+    border-radius: 5px;
+    border: none;
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(4, 72, 16, 0.3);
+    color: white;
+    font-size: 20px;
+    font-family: monospace;
+    height: 320px;
 }
 
 input,textarea,button{

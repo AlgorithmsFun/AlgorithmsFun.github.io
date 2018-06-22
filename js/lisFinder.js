@@ -28,7 +28,21 @@ main();
 function max(a,b) {
     return (a>b)?a:b;
 }
-	
+function random_sequence(){
+    var a=document.getElementById('sNum').value;
+    var b=document.getElementById('eNum').value;
+    var d=document.getElementById('seqLen').value;
+    var e=new Array();
+    for(i=0;i<d;i++){
+        var c=Math.round(Math.random()*b);
+        while(c<=a||c>=b){
+            c=Math.round(Math.random()*b);
+        }
+        e[i]=c;
+    }
+    document.getElementById('ranlis').value=e;
+}
+
 function array_max_index(a) {
     var size=a.length;
     var max=a[0];
